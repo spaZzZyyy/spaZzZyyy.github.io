@@ -25,8 +25,8 @@
 
 # Weekly Assignments
 
-- WA1(https://spazzzyyy.github.io/wa1.html)
-- WA2
+- WA1(https://spazzzyyy.github.io/wa/wa1.html)
+- WA2(https://spazzzyyy.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
