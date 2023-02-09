@@ -9,9 +9,7 @@
 
 - ICA1
 - ICA2
-- ICA3
-- (https://spazzzyyy.github.io/ica/ica3/ica3A.html)
-- (https://spazzzyyy.github.io/ica/ica3/ica3B.html)
+- ICA3 (https://spazzzyyy.github.io/ica/ica3/ica3A.html) (https://spazzzyyy.github.io/ica/ica3/ica3B.html)
 - ICA4
 - ICA5
 - ICA6
@@ -27,11 +25,9 @@
 
 # Weekly Assignments
 
-- WA1
-- (https://spazzzyyy.github.io/wa/wa1.html)
-- WA2
-- (https://spazzzyyy.github.io/wa/wa2.html)
-- WA3
+- WA1 (https://spazzzyyy.github.io/wa/wa1.html)
+- WA2 (https://spazzzyyy.github.io/wa/wa2.html)
+- WA3 (https://spazzzyyy.github.io/wa/wa3.html)
 - WA4
 - WA5
 - WA6
