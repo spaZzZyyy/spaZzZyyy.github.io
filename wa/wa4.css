@@ -19,17 +19,50 @@ body {
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
+
+  .card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(65, 102, 202);
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
   
   article {
-    background-color: #ccc;
+    background-color: #00000044;
+    height: 12em;
   }
 
-  header,footer {
-    padding: 1em;
+  article p{
+    padding-top: 0.5em;
+    color: white;
+    line-height: 1.5em;
+  }
+
+  header, footer {
+    max-height: 1.875;
+  }
+
+  footer {
+    font-size: 1.25em;
+    padding-left: -1;
+    font-weight: bold;
   }
 
   #pic {
-    height: 150px;
-    object-fit: contain;
+    max-height: 100%;
     float: right;
+  }
+
+  h2 {
+      font-size: 2em;
+      font-weight: 800;
+      margin-bottom: 0em;
+      padding-left: 0.5em;
+  }
+
+  p {
+    font-size: 0.9375;
+    margin-left: 1em;
   }
