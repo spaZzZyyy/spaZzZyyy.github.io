@@ -1,0 +1,65 @@
+body {
+    background-image: url(/img/WA5_IMGS/W_QyQxG_skXpE5TX.jpg_large);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#BuffImg {
+    position: absolute;
+    width: 120px;
+    top: 370px;
+    left: 170px;
+}
+
+#FadeIMG {
+    position: absolute;
+    width: 200px;
+    top: 470px;
+    left: 130px;
+}
+
+#AgentsOverlay{
+    margin-left: 100px;
+    width: 420px;
+    height: 1px;
+    padding-top: 450px;
+    border: 2px solid rgb(153, 123, 23);
+    fill: bisque;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-top: 330px;
+    margin-left: 130px;
+}
+
+#PlayerName, #Stats, #Numbers {
+    position: absolute;
+    font-size: 200%;
+    color: rgb(212, 171, 35);
+}
+
+#PlayerName{
+    font-size: 400%;
+    top: 310px;
+    left: 320px;
+}
+
+#Stats {
+    top: 450px;
+    left: 300px;
+}
+
+#Numbers {
+    color: rgb(251, 255, 23);
+    text-align: center;
+    top: 450px;
+    left: 490px;
+}
+
+#AD {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 380px;
+    left: 1520px;
+}
