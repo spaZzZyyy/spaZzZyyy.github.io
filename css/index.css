@@ -1,0 +1,18 @@
+nav {
+    background-color: #000;
+    position: sticky;
+    top: 0em;
+    left: 3em;
+  }
+
+  body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  #ul_nav_bar li{
+    display: inline;
+    padding: 10%;
+  }
