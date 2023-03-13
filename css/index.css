@@ -14,5 +14,6 @@ nav {
 
   #ul_nav_bar li{
     display: inline;
-    padding: 10%;
+    padding: 15%;
+    margin-top: 2%;
   }
