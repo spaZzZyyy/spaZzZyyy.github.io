@@ -96,3 +96,23 @@ nav {
     position: relative;
     margin-left: 10%;
   }
+
+  .strats {
+    position: relative;
+    list-style: none;
+    padding-top: 2%;
+    float: left;
+    max-width: 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    object-fit: cover;
+  }
+
+  #stratBook {
+    padding: 2%;
+    font-size: 120%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(245, 245, 245, 0.781);
+  }
