@@ -1,12 +1,12 @@
 nav {
-    background-color: #000;
+    background-color: #31aae2;
     position: sticky;
     top: 0em;
-    left: 3em;
+    left: 0em;
   }
 
   body {
-    background-color: #fff;
+    background-color: #be4791;
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
@@ -14,5 +14,6 @@ nav {
 
   #ul_nav_bar li{
     display: inline;
-    padding: 15%;
+    padding: 5%;
+    gap: 1, 2;
   }
