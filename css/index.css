@@ -1,13 +1,14 @@
 nav {
-    background-color: #31aae2;
+    background-color: #b0baf7;
     position: sticky;
     top: 0em;
     left: 0em;
+    padding: 0.5%
   }
 
   body {
-    background-color: #be4791;
-    color: #333;
+    background-color: #f8d4f5;
+    color: #000000;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
@@ -15,5 +16,5 @@ nav {
   #ul_nav_bar li{
     display: inline;
     padding: 5%;
-    gap: 1, 2;
+    gap: 1,;
   }
