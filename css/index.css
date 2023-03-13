@@ -21,7 +21,6 @@ nav {
   #Player_Photo{
     float: left;
     max-width: 15%;
-    max-height: auto;
     margin-left: 2em;
     margin-top: 1em;
     border-color: #000000;
@@ -49,7 +48,6 @@ nav {
     padding-top: 2%;
     float: left;
     max-width: 5%;
-    max-height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
