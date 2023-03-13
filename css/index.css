@@ -18,3 +18,54 @@ nav {
     padding: 5%;
     gap: 1,;
   }
+
+  #Player_Photo{
+    float: left;
+    max-width: 15%;
+    max-height: auto;
+    margin-left: 2em;
+    margin-top: 1em;
+    border-color: #000000;
+    border-width: 0.5em;
+    border-style: double;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+
+  #descriptionPlayer{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  h2 {
+    font: 1.2em / 2 Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding: 5%;
+  }
+
+  .photos {
+    position: relative;
+    list-style: none;
+    padding-top: 2%;
+    float: left;
+    max-width: 5%;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    object-fit: cover;
+  }
+
+  #buffs {
+    height: 10%;
+  }
+
+  #ice {
+    height: 10%;
+  }
+
+  h3 {
+    margin-left: 3%;
+  }
