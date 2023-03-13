@@ -7,7 +7,7 @@ nav {
   }
 
   body {
-    background-color: #f8d4f5;
+    background-color: #362335;
     color: #000000;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
@@ -68,4 +68,34 @@ nav {
 
   h3 {
     margin-left: 3%;
+  }
+
+  #descriptionOfMe {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    padding: 5%;
+  }
+
+  #banner {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    overflow: auto;
+    position: relative;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  #bg {
+    position: absolute;
+    padding: 50%;
+    background-color: #030308;
+  }
+
+  h1 {
+    float: left;
+    color: #ffffff;
+    position: relative;
+    margin-left: 10%;
   }
