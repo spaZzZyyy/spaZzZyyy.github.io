@@ -35,6 +35,7 @@ a:hover {
 a:active {
   color: rgb(80, 18, 143);
   text-decoration: none;
+  
 }
 
   #ul_nav_bar li {
@@ -77,14 +78,17 @@ a:active {
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     object-fit: cover;
+    
   }
 
   #buffs {
     height: 10%;
+    object-fit: contain;
   }
 
   #ice {
     height: 10%;
+    object-fit: contain;
   }
 
   h3 {
