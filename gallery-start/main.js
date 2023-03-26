@@ -34,12 +34,11 @@ function toggleOverlay(){
     if(btn.getAttribute("class") == "dark"){
         btn.setAttribute("class", "light");
         btn.textContent = "Lighten";
-        document.getElementById("bgColor").style.backgroundColor = rgba(0,0,0,0.5);
-
+        overlay.style.background = rgba(0,0,0,0);
     } else {
         btn.setAttribute("class", "dark");
         btn.textContent  = "Darken";
-        document.getElementById("bgColor").style.backgroundColor = rgba(0,0,0,0.5);
+        overlay.style.backgroundColor = rgba(0,0,0,0.5);
     }
     
 }
