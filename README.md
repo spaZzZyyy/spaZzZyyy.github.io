@@ -17,7 +17,7 @@
 - ICA8
 - ICA9
 - ICA10 https://spazzzyyy.github.io/ica/ica10.html
-- ICA11
+- ICA11 https://spazzzyyy.github.io/ica/ica11.html
 - ICA12
 - ICA13
 - ICA14
