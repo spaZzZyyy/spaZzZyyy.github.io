@@ -12,13 +12,13 @@
 - ICA3 (https://spazzzyyy.github.io/ica/ica3/ica3A.html) (https://spazzzyyy.github.io/ica/ica3/ica3B.html)
 - ICA4 (https://spazzzyyy.github.io/ica/ica4.html)
 - ICA5 https://spazzzyyy.github.io/ica/ica5.html
-- ICA6
+- ICA6 https://spazzzyyy.github.io/ica/ica6.html
 - ICA7 https://spazzzyyy.github.io/ica/ica7.html
-- ICA8
-- ICA9
+- ICA8 https://spazzzyyy.github.io/ica/ica8.html
+- ICA9 https://spazzzyyy.github.io/ica/ica9.html
 - ICA10 https://spazzzyyy.github.io/ica/ica10.html
 - ICA11 https://spazzzyyy.github.io/ica/ica11.html
-- ICA12
+- ICA12 https://spazzzyyy.github.io/ica/ica12.html
 - ICA13
 - ICA14
 - ICA15
@@ -32,10 +32,10 @@
 - WA5 (https://spazzzyyy.github.io/wa/wa5.html)
 - WA6 (https://spazzzyyy.github.io/wa/wa6.html)
 - WA7 (https://spazzzyyy.github.io/wa/wa7.html)
-- WA8
-- WA9
-- WA10
-- WA11
+- WA8 (https://spazzzyyy.github.io/wa/wa8.html)
+- WA9 (https://spazzzyyy.github.io/wa/wa9.html)
+- WA10 (https://spazzzyyy.github.io/wa/wa10.html)
+- WA11 (https://spazzzyyy.github.io/wa/wa11.html)
 - WA12
 - WA13
 - WA14
