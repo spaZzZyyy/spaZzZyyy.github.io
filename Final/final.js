@@ -4,8 +4,13 @@ var bossHp = 100;
 var heroHp = 100;
 var atkDmg = 10;
 
-setBossHp(100);
-setHeroHp(100);
+startGame();
+
+function startGame(){
+    bossHp = 100;
+    setBossHp(100);
+    setHeroHp(100);
+}
 
 //For the Animations
 const bossPic = document.querySelector('.bossImg');
@@ -35,13 +40,19 @@ function doDmg(num)  {
         heroPic.setAttribute('src', "Assets/BlueMage/standing.gif");
         heroPic.setAttribute('alt', "HeroStanding");
 
-        bossPic.setAttribute('src', "Assets/Necroman/standingNec.gif");
-        bossPic.setAttribute('alt', "BossStanding");
+        if (bossHp > atkDmg){
+            bossPic.setAttribute('src', "Assets/Necroman/standingNec.gif");
+            bossPic.setAttribute('alt', "BossStanding");
+        }
 
         //Dmg
         bossHp = bossHp - atkDmg;
         setBossHp(bossHp);
     }, 3000);
+
+    if (bossHp <= atkDmg){
+        killBoss();
+    }
 }
 
 function setHeroHp(x){
@@ -51,4 +62,29 @@ function setHeroHp(x){
 function setBossHp(x){
     bossHealth.textContent = x;
 }
+
+function killBoss(){
+    bossPic.setAttribute('src', "Assets/Necroman/DeathNec.gif");
+    bossPic.setAttribute('alt', "BossDying");
+
+    setTimeout(() => {
+        bossPic.setAttribute('src', "Assets/Necroman/Dead.jpg");
+        bossPic.setAttribute('alt', "BossDead");
+    }, 2500);
+
+    setTimeout(() => {
+        alert("Game Over");
+        startGame();
+
+        bossPic.setAttribute('src', "Assets/Necroman/standingNec.gif");
+        bossPic.setAttribute('alt', "BossStanding");
+    }, 3000);
+
+}
+
+//Boss
+function bossDoDmg(){
+
+}
+
 
