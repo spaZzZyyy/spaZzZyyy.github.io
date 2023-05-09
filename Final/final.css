@@ -53,3 +53,22 @@ body {
     background-color: rgb(216, 91, 247);
 }
 
+#actions{
+    position: absolute;
+    top: 375px;
+    left: 925px;
+}
+
+nav {
+    background-color: #b0baf7;
+    position: sticky;
+    top: 0em;
+    left: 0em;
+    padding: 0.5%
+  }
+
+#ul_nav_bar li {
+display: inline;
+padding: 5%;
+}
+

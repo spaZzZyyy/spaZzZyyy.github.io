@@ -1,5 +1,11 @@
 var bossHealth = document.querySelector('#bossHP');
 var heroHealth = document.querySelector('#heroHP');
+var bossHp = 100;
+var heroHp = 100;
+var atkDmg = 10;
+
+setBossHp(100);
+setHeroHp(100);
 
 //For the Animations
 const bossPic = document.querySelector('.bossImg');
@@ -15,10 +21,10 @@ for (i = 0; i < cards.length; i++){
     newCard.setAttribute('alt', cardAlt[i]);
     const placeHolder = i;
     hand.appendChild(newCard);
-    newCard.addEventListener("click", () => changeImage(placeHolder));
+    newCard.addEventListener("click", () => doDmg(placeHolder));
     }
 
-function changeImage(num)  {
+function doDmg(num)  {
     heroPic.setAttribute('src',  cards[num]);
     heroPic.setAttribute('alt', cardAlt[num]);
 
@@ -31,6 +37,18 @@ function changeImage(num)  {
 
         bossPic.setAttribute('src', "Assets/Necroman/standingNec.gif");
         bossPic.setAttribute('alt', "BossStanding");
+
+        //Dmg
+        bossHp = bossHp - atkDmg;
+        setBossHp(bossHp);
     }, 3000);
+}
+
+function setHeroHp(x){
+    heroHealth.textContent = x;
+}
+
+function setBossHp(x){
+    bossHealth.textContent = x;
 }
 
