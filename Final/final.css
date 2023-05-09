@@ -1,0 +1,55 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: rgb(65, 105, 238);
+}
+
+#portraits {
+    padding: 2%;
+}
+
+.bossImg {
+    float: right;
+    height: 250px;
+    width: 400px;
+    margin: 1px;
+}
+
+.heroImg {
+    float: left;
+    height: 250px;
+    width: 400px;
+    margin: 1px;
+}
+
+.hpBars {
+    display: block;
+    text-align: center;
+}
+
+#heroHealthBar {
+    float: left;
+}
+
+#bossHealthBar {
+    float: right;
+}
+
+.controls {
+    padding: 4%;
+}
+
+.hand {
+    position: absolute;
+    bottom: 250px;
+    left: 325px;
+}
+
+.hand > img{
+    height: 250px;
+    width: 400px;
+    margin: 15px;
+
+    background-color: rgb(216, 91, 247);
+}
+
