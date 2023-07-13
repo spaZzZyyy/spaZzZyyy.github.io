@@ -17,6 +17,7 @@
 
 .logo{
     margin-right: 50px;
+    margin-left: 20px;
 }
 
 .list{
@@ -51,6 +52,10 @@
 
     .menuSocials{
         display: none;
+    }
+
+    .logo{
+        margin-bottom: -45px;
     }
 
 }
