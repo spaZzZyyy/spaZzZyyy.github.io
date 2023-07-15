@@ -72,6 +72,8 @@
     width: 168px;
     overflow: hidden;
     background-repeat: no-repeat;
+    margin-left: 12px;
+    margin-top: 7px;
 }
 
 #LogoImg{
