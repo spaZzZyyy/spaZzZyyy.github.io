@@ -30,7 +30,7 @@
 }
 
 #AboutLink:hover, #EsportsLink:hover, #GamesLink:hover, #MusicLink:hover {
-    color: rgb(134, 97, 221);
+    color: lightblue;
 }
 
 #TwitchLogo:hover, #TiktokLogo:hover, #TwitterLogo:hover, #YoutubeLogo:hover {
