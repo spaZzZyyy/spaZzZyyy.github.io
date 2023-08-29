@@ -106,6 +106,10 @@
     opacity: 0;
 }
 
+.list{
+    color: gray;
+}
+
 .menuSocials{
     list-style-type: none;
     font-size: 5px;
@@ -118,5 +122,5 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(20, 18, 28);
 }
