@@ -106,6 +106,10 @@
     opacity: 0;
 }
 
+.list{
+    color: gray;
+}
+
 .menuSocials{
     list-style-type: none;
     font-size: 5px;
