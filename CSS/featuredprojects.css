@@ -4,7 +4,7 @@
     align-items: center;
     justify-content:space-between;
     background-color: #D9D9D9;
-    background-image: url(/Assets/Pictures/NavBarHeader.png);
+    background-image: url(/Assets/Pictures/Twitter_Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -118,5 +118,18 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(116, 116, 160);
+    align-content: center;
+}
+
+#ProjectBluePic {
+    width: 1000px;
+}
+
+h2{
+    font-size: 300%;
+}
+
+p {
+    font-size: 150%;
 }
