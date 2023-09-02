@@ -131,11 +131,29 @@ body{
 
 .Players p{
     margin-left: 2%;
+    font-size: 20px;
+    text-align-last: center;
 }
 
 .PlayerBackgrounds{
     padding: 2%;
-    margin-right: 5%;
+    margin-right: 15%;
+    margin-left: 3%;
     background-color: rgb(221, 221, 221);
     border-radius: 20px;
 }
+
+#Goals {
+    padding: 2%;
+}
+
+.Players h2{
+    align-items: center;
+    background-color: rgb(240, 110, 196);
+    margin-right: 90%;
+    margin-left: 2%;
+    border-radius: 20px;
+    padding: 5px;
+    text-indent: 10px;
+}
+
