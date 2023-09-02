@@ -122,5 +122,20 @@
 }
 
 body{
-    background-color: rgb(20, 18, 28);
+    background-color: rgb(46, 178, 187);
+}
+
+.Players{
+    padding-left: 5%;
+}
+
+.Players p{
+    margin-left: 2%;
+}
+
+.PlayerBackgrounds{
+    padding: 2%;
+    margin-right: 5%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
 }
