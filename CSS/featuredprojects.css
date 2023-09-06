@@ -120,16 +120,64 @@
 body{
     background-color: rgb(64, 64, 104);
     align-content: center;
-}
-
-#ProjectBluePic {
-    width: 1000px;
+    padding: 5px;
 }
 
 h2{
     font-size: 300%;
+    color: #b6b1b1;
+    text-align: center;
 }
 
 p {
-    font-size: 150%;
+    font-size: 125%;
+    line-height: 35px;
+    align-items: center;
+    background-color: rgb(89, 126, 158);
+    border-radius: 15px;
+    padding: 5px;
 }
+
+
+.FeaturedProjectsBox {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.ProjectBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+#projectBlue, #VideoGameSoundTrack, #spaZzZyyy5, #moonBase {
+    background-color: rgb(24, 26, 44);
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-inline: 10px;
+}
+
+#GameBlue {
+    height: 250px;
+}
+
+iframe {
+    width: 350px;
+}
+
+#spzvideos, #moonvid, #gamevid {
+    text-align: center;
+    display: block;
+}
+
