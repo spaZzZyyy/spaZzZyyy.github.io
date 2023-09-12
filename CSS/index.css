@@ -29,7 +29,7 @@
     gap: 25px;
 }
 
-#AboutLink:hover, #EsportsLink:hover, #GamesLink:hover, #MusicLink:hover {
+#AboutLink:hover, #EsportsLink:hover, #GamesLink:hover, #MusicLink:hover, #playerPage:hover {
     color: lightblue;
 }
 
