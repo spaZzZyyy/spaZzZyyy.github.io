@@ -30,7 +30,7 @@
 }
 
 #AboutLink:hover, #EsportsLink:hover, #GamesLink:hover, #MusicLink:hover, #playerPage:hover {
-    color: lightblue;
+    color: rgb(120, 202, 232);
 }
 
 #TwitchLogo:hover, #TiktokLogo:hover, #TwitterLogo:hover, #YoutubeLogo:hover {
@@ -47,7 +47,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1050px){
     .menu {
         width:100%;
         max-height: 1;
@@ -122,7 +122,7 @@
 }
 
 body{
-    background-color: rgb(46, 178, 187);
+    background-color: rgb(47, 47, 47);
 }
 
 .Players{
