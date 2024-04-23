@@ -3,20 +3,25 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
-    background-color: #83455a;
+    background-color: rgb(141, 83, 28);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
     padding-right: 35px;
     position: sticky;
     border-radius: 20%;
+
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .Nav a{
     text-decoration: none;
     color: inherit;
     font-size: 45px;
-    color: #598ad9;
+    color: #68707e;
 }
 
 .logo{
@@ -30,8 +35,8 @@
     gap: 25px;
 }
 
-#AboutLink:hover, #EsportsLink:hover, #GamesLink:hover, #MusicLink:hover, #playerPage:hover {
-    color: lightblue;
+#EsportsLink:hover, #GamesLink:hover, #MusicLink:hover, #playerPage:hover {
+    color: rgb(5, 37, 48);
 }
 
 #TwitchLogo:hover, #TiktokLogo:hover, #TwitterLogo:hover, #YoutubeLogo:hover {
